@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Narcissus.Logging.Abstract\Narcissus.Logging.Abstract.csproj" />
+    <ProjectReference Include="..\Narcissus.Logging.Core\Narcissus.Logging.Core.csproj" />
+  </ItemGroup>
+
+</Project>
