@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  narcissus.web:
+    image: narcissus.web
+    build:
+      context: ./Narcissus.Web
+      dockerfile: Dockerfile
