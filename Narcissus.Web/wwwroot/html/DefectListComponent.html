@@ -1,0 +1,46 @@
+﻿<h1>Dashboard</h1>
+<section class="row text-center placeholders">
+    <div class="col-6 col-sm-3 placeholder">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+        <h4>Label</h4>
+        <span class="text-muted">Something else</span>
+    </div>
+    <div class="col-6 col-sm-3 placeholder">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+        <h4>Label</h4>
+        <span class="text-muted">Something else</span>
+    </div>
+    <div class="col-6 col-sm-3 placeholder">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+        <h4>Label</h4>
+        <span class="text-muted">Something else</span>
+    </div>
+</section>
+
+<h2>Bug List</h2>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>LogType</th>
+                <th>SERVER_UTC_TIME</th>
+                <th>Catalog</th>
+                <th>Message</th>
+                <th>StackTrace</th>
+                <th>ExtraInfo</th>
+                <th>StateType</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr  *ngFor="let log of logs;let i= index">
+                <td>{{log.LogType}}</td>
+                <td>{{log.SERVER_UTC_TIME}}</td>
+                <td>{{log.Catalog}}</td>
+                <td>{{log.Message}}</td>
+                <td>{{log.StackTrace}}</td>
+                <td>{{log.ExtraInfo}}</td>
+                <td>{{log.StateType}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

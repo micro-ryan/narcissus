@@ -1,0 +1,27 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar" style="cursor:grab">
+            <ul class="nav nav-pills flex-column" *ngFor="let app of apps;let i= index">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/defects/{{app.Application}}" [ngClass]="{'active': i==0}">
+                        <i class="fa fa-area-chart" aria-hidden="true">{{app.Application}}</i>
+                        <span *ngIf="i==0" class="sr-only">(Current)</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column" *ngFor="let serv of app.WebServers;let i= index">
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="/defects/{{app.Application}}/{{serv.Machine}}"  style="margin-left:20px" [ngClass]="{'active': i==0}">
+                                <i class="fa fa-server" aria-hidden="true"> {{serv.Machine}}</i> <br />
+                                <i class="fa fa-rss" aria-hidden="true"> ({{serv.PlatForm}})</i>
+                                <span *ngIf="i==0" class="sr-only">(Current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
