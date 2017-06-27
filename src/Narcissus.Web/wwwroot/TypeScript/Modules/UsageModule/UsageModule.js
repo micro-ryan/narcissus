@@ -19,14 +19,14 @@ var usageRoutes = [
 var UsageModule = (function () {
     function UsageModule() {
     }
-    UsageModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(usageRoutes)],
-            declarations: [UsageComponent_1.UsageComponent],
-            exports: [router_1.RouterModule]
-        })
-    ], UsageModule);
     return UsageModule;
 }());
+UsageModule = __decorate([
+    core_1.NgModule({
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(usageRoutes)],
+        declarations: [UsageComponent_1.UsageComponent],
+        exports: [router_1.RouterModule]
+    })
+], UsageModule);
 exports.UsageModule = UsageModule;
 //# sourceMappingURL=UsageModule.js.map

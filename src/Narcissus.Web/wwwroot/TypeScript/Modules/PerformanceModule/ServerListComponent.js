@@ -20,13 +20,13 @@ var ServerListComponent = (function () {
         var _this = this;
         this.servListService.GetServerList().then(function (res) { return _this.servs = res; });
     };
-    ServerListComponent = __decorate([
-        core_1.Component({
-            templateUrl: '/wwwroot/html/ServerListComponent.html'
-        }),
-        __metadata("design:paramtypes", [ServerListService_1.ServerListService])
-    ], ServerListComponent);
     return ServerListComponent;
 }());
+ServerListComponent = __decorate([
+    core_1.Component({
+        templateUrl: '/wwwroot/html/ServerListComponent.html'
+    }),
+    __metadata("design:paramtypes", [ServerListService_1.ServerListService])
+], ServerListComponent);
 exports.ServerListComponent = ServerListComponent;
 //# sourceMappingURL=ServerListComponent.js.map

@@ -20,14 +20,14 @@ var AppListComponent = (function () {
         var _this = this;
         this.appListService.GetAppList().then(function (res) { return _this.apps = res; });
     };
-    AppListComponent = __decorate([
-        core_1.Component({
-            selector: 'app-list',
-            templateUrl: '/wwwroot/html/AppListComponent.html'
-        }),
-        __metadata("design:paramtypes", [AppListService_1.AppListService])
-    ], AppListComponent);
     return AppListComponent;
 }());
+AppListComponent = __decorate([
+    core_1.Component({
+        selector: 'app-list',
+        templateUrl: '/wwwroot/html/AppListComponent.html'
+    }),
+    __metadata("design:paramtypes", [AppListService_1.AppListService])
+], AppListComponent);
 exports.AppListComponent = AppListComponent;
 //# sourceMappingURL=AppListComponent.js.map

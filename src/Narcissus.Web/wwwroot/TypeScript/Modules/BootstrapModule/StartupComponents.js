@@ -13,13 +13,13 @@ var StartupComponents = (function () {
     }
     StartupComponents.prototype.ngOnInit = function () {
     };
-    StartupComponents = __decorate([
-        core_1.Component({
-            selector: 'dashboard',
-            templateUrl: '/wwwroot/html/StartupComponent.html'
-        })
-    ], StartupComponents);
     return StartupComponents;
 }());
+StartupComponents = __decorate([
+    core_1.Component({
+        selector: 'dashboard',
+        templateUrl: '/wwwroot/html/StartupComponent.html'
+    })
+], StartupComponents);
 exports.StartupComponents = StartupComponents;
 //# sourceMappingURL=StartupComponents.js.map

@@ -37,11 +37,11 @@ var AppListService = (function () {
         console.error(errMsg);
         return Promise.reject(errMsg);
     };
-    AppListService = __decorate([
-        core_1.Injectable(),
-        __metadata("design:paramtypes", [http_1.Http])
-    ], AppListService);
     return AppListService;
 }());
+AppListService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
+], AppListService);
 exports.AppListService = AppListService;
 //# sourceMappingURL=AppListService.js.map

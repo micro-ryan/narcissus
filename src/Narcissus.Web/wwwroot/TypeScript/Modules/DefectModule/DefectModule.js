@@ -31,19 +31,19 @@ var defectRoutes = [
 var DefectModule = (function () {
     function DefectModule() {
     }
-    DefectModule = __decorate([
-        core_1.NgModule({
-            imports: [
-                platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(defectRoutes)
-            ],
-            declarations: [AppListComponent_1.AppListComponent, DefectListComponent_1.DefectListComponent],
-            exports: [
-                router_1.RouterModule
-            ],
-            providers: [AppListService_1.AppListService, DefectsService_1.DefectsService]
-        })
-    ], DefectModule);
     return DefectModule;
 }());
+DefectModule = __decorate([
+    core_1.NgModule({
+        imports: [
+            platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(defectRoutes)
+        ],
+        declarations: [AppListComponent_1.AppListComponent, DefectListComponent_1.DefectListComponent],
+        exports: [
+            router_1.RouterModule
+        ],
+        providers: [AppListService_1.AppListService, DefectsService_1.DefectsService]
+    })
+], DefectModule);
 exports.DefectModule = DefectModule;
 //# sourceMappingURL=DefectModule.js.map

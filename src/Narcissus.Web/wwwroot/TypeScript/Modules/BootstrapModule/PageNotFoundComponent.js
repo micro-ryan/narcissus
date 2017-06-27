@@ -15,14 +15,14 @@ var PageNotFoundComponent = (function () {
     }
     PageNotFoundComponent.prototype.ngOnInit = function () {
     };
-    PageNotFoundComponent = __decorate([
-        core_1.Component({
-            selector: 'defect-center',
-            templateUrl: '/wwwroot/html/PageNotFoundComponent.html'
-        }),
-        __metadata("design:paramtypes", [])
-    ], PageNotFoundComponent);
     return PageNotFoundComponent;
 }());
+PageNotFoundComponent = __decorate([
+    core_1.Component({
+        selector: 'defect-center',
+        templateUrl: '/wwwroot/html/PageNotFoundComponent.html'
+    }),
+    __metadata("design:paramtypes", [])
+], PageNotFoundComponent);
 exports.PageNotFoundComponent = PageNotFoundComponent;
 //# sourceMappingURL=PageNotFoundComponent.js.map

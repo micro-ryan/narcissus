@@ -19,14 +19,14 @@ var profileRoutes = [
 var ProfileModule = (function () {
     function ProfileModule() {
     }
-    ProfileModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(profileRoutes)],
-            declarations: [ProfileComponent_1.ProfileComponent],
-            exports: [router_1.RouterModule]
-        })
-    ], ProfileModule);
     return ProfileModule;
 }());
+ProfileModule = __decorate([
+    core_1.NgModule({
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(profileRoutes)],
+        declarations: [ProfileComponent_1.ProfileComponent],
+        exports: [router_1.RouterModule]
+    })
+], ProfileModule);
 exports.ProfileModule = ProfileModule;
 //# sourceMappingURL=ProfileModule.js.map

@@ -15,13 +15,13 @@ var PerformanceComponent = (function () {
     }
     PerformanceComponent.prototype.ngOnInit = function () {
     };
-    PerformanceComponent = __decorate([
-        core_1.Component({
-            templateUrl: '/wwwroot/html/PerformanceComponent.html'
-        }),
-        __metadata("design:paramtypes", [])
-    ], PerformanceComponent);
     return PerformanceComponent;
 }());
+PerformanceComponent = __decorate([
+    core_1.Component({
+        templateUrl: '/wwwroot/html/PerformanceComponent.html'
+    }),
+    __metadata("design:paramtypes", [])
+], PerformanceComponent);
 exports.PerformanceComponent = PerformanceComponent;
 //# sourceMappingURL=PerformanceComponent.js.map

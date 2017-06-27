@@ -15,13 +15,13 @@ var ProfileComponent = (function () {
     }
     ProfileComponent.prototype.ngOnInit = function () {
     };
-    ProfileComponent = __decorate([
-        core_1.Component({
-            templateUrl: '/wwwroot/html/ProfileComponent.html'
-        }),
-        __metadata("design:paramtypes", [])
-    ], ProfileComponent);
     return ProfileComponent;
 }());
+ProfileComponent = __decorate([
+    core_1.Component({
+        templateUrl: '/wwwroot/html/ProfileComponent.html'
+    }),
+    __metadata("design:paramtypes", [])
+], ProfileComponent);
 exports.ProfileComponent = ProfileComponent;
 //# sourceMappingURL=ProfileComponent.js.map

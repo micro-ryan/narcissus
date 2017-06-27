@@ -29,19 +29,19 @@ var defectRoutes = [
 var PerformanceModule = (function () {
     function PerformanceModule() {
     }
-    PerformanceModule = __decorate([
-        core_1.NgModule({
-            imports: [
-                platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(defectRoutes)
-            ],
-            declarations: [ServerListComponent_1.ServerListComponent, PerformanceComponent_1.PerformanceComponent],
-            exports: [
-                router_1.RouterModule
-            ],
-            providers: [ServerListService_1.ServerListService]
-        })
-    ], PerformanceModule);
     return PerformanceModule;
 }());
+PerformanceModule = __decorate([
+    core_1.NgModule({
+        imports: [
+            platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, forms_1.ReactiveFormsModule, http_1.HttpModule, http_1.JsonpModule, router_1.RouterModule.forChild(defectRoutes)
+        ],
+        declarations: [ServerListComponent_1.ServerListComponent, PerformanceComponent_1.PerformanceComponent],
+        exports: [
+            router_1.RouterModule
+        ],
+        providers: [ServerListService_1.ServerListService]
+    })
+], PerformanceModule);
 exports.PerformanceModule = PerformanceModule;
 //# sourceMappingURL=PerformanceModule.js.map

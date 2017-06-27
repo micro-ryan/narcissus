@@ -15,13 +15,13 @@ var UsageComponent = (function () {
     }
     UsageComponent.prototype.ngOnInit = function () {
     };
-    UsageComponent = __decorate([
-        core_1.Component({
-            templateUrl: '/wwwroot/html/UsageComponent.html'
-        }),
-        __metadata("design:paramtypes", [])
-    ], UsageComponent);
     return UsageComponent;
 }());
+UsageComponent = __decorate([
+    core_1.Component({
+        templateUrl: '/wwwroot/html/UsageComponent.html'
+    }),
+    __metadata("design:paramtypes", [])
+], UsageComponent);
 exports.UsageComponent = UsageComponent;
 //# sourceMappingURL=UsageComponent.js.map

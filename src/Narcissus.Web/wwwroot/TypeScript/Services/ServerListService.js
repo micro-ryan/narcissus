@@ -37,11 +37,11 @@ var ServerListService = (function () {
         console.error(errMsg);
         return Promise.reject(errMsg);
     };
-    ServerListService = __decorate([
-        core_1.Injectable(),
-        __metadata("design:paramtypes", [http_1.Http])
-    ], ServerListService);
     return ServerListService;
 }());
+ServerListService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
+], ServerListService);
 exports.ServerListService = ServerListService;
 //# sourceMappingURL=ServerListService.js.map

@@ -41,11 +41,11 @@ var DefectsService = (function () {
         console.error(errMsg);
         return Promise.reject(errMsg);
     };
-    DefectsService = __decorate([
-        core_1.Injectable(),
-        __metadata("design:paramtypes", [http_1.Http])
-    ], DefectsService);
     return DefectsService;
 }());
+DefectsService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
+], DefectsService);
 exports.DefectsService = DefectsService;
 //# sourceMappingURL=DefectsService.js.map

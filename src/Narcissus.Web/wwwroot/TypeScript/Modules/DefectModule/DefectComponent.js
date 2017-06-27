@@ -34,13 +34,13 @@ var DefectComponent = (function () {
             this.defectsService.GetDefectsByAppAndMachine(appName, machineName).then(function (res) { return _this.logs = res; });
         }
     };
-    DefectComponent = __decorate([
-        core_1.Component({
-            templateUrl: '/wwwroot/html/DefectComponent.html'
-        }),
-        __metadata("design:paramtypes", [router_1.ActivatedRoute, router_1.Router, DefectsService_1.DefectsService])
-    ], DefectComponent);
     return DefectComponent;
 }());
+DefectComponent = __decorate([
+    core_1.Component({
+        templateUrl: '/wwwroot/html/DefectComponent.html'
+    }),
+    __metadata("design:paramtypes", [router_1.ActivatedRoute, router_1.Router, DefectsService_1.DefectsService])
+], DefectComponent);
 exports.DefectComponent = DefectComponent;
 //# sourceMappingURL=DefectComponent.js.map
