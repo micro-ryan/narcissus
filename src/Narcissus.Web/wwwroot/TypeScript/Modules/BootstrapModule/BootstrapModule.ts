@@ -5,22 +5,24 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpModule, JsonpModule, Http, Response, Headers, RequestOptions } from "@angular/http";
 import { Observable } from 'rxjs';
+
+import { LoggerService } from '../../Services/LoggerService'
 import { StartupComponents } from './StartupComponents'
 import { PageNotFoundComponent } from './PageNotFoundComponent'
 import { DefectModule } from '../DefectModule/DefectModule'
 import { PerformanceModule } from '../PerformanceModule/PerformanceModule'
 import { ProfileModule } from '../ProfileModule/ProfileModule'
 import { UsageModule } from '../UsageModule/UsageModule'
-
+import { AccountModule } from '../Account/AccountModule'
 const appRoutes: Routes = [
-    { path: '', redirectTo: '/defects', pathMatch:'full' },
-    { path: '**', component: PageNotFoundComponent },
+    { path: '', redirectTo: '/myaccount', pathMatch:'full' }
     ]
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, CommonModule, ReactiveFormsModule, HttpModule, JsonpModule, DefectModule, PerformanceModule, ProfileModule, UsageModule, RouterModule.forRoot(appRoutes)],
+    imports: [BrowserModule, FormsModule, CommonModule, ReactiveFormsModule, HttpModule, JsonpModule, AccountModule,  RouterModule.forRoot(appRoutes)],
     declarations: [StartupComponents, PageNotFoundComponent],
     bootstrap: [StartupComponents],
+    providers: [LoggerService],
     exports: [RouterModule]
 })
 export class BootstrapModule {

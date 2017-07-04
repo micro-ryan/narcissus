@@ -5,7 +5,7 @@ import { Observable } from 'rxjs'
 import 'reflect-metadata'
 
 @Component({
-    templateUrl: '/wwwroot/html/ServerListComponent.html'
+    templateUrl: '/html/ServerListComponent.html'
 })
 export class ServerListComponent implements OnInit {
     servs: Server[];

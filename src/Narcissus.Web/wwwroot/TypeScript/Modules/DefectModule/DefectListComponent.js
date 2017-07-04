@@ -43,7 +43,7 @@ var DefectListComponent = (function () {
 }());
 DefectListComponent = __decorate([
     core_1.Component({
-        templateUrl: '/wwwroot/html/DefectListComponent.html'
+        templateUrl: '/html/DefectListComponent.html'
     }),
     __metadata("design:paramtypes", [router_1.ActivatedRoute, router_1.Router, DefectsService_1.DefectsService])
 ], DefectListComponent);

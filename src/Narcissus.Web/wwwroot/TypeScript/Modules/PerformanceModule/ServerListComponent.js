@@ -24,7 +24,7 @@ var ServerListComponent = (function () {
 }());
 ServerListComponent = __decorate([
     core_1.Component({
-        templateUrl: '/wwwroot/html/ServerListComponent.html'
+        templateUrl: '/html/ServerListComponent.html'
     }),
     __metadata("design:paramtypes", [ServerListService_1.ServerListService])
 ], ServerListComponent);

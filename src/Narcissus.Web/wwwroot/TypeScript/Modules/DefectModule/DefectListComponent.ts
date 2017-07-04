@@ -5,7 +5,7 @@ import { Observable } from 'rxjs'
 import 'rxjs/add/operator/switchMap';
 import { DefectsService } from '../../Services/DefectsService'
 @Component({
-    templateUrl: '/wwwroot/html/DefectListComponent.html'
+    templateUrl: '/html/DefectListComponent.html'
 })
 export class DefectListComponent implements OnInit {
     private selectedApp: string;

@@ -6,7 +6,7 @@ import 'reflect-metadata'
 
 @Component({
     selector: 'app-list',
-    templateUrl: '/wwwroot/html/AppListComponent.html'
+    templateUrl: '/html/AppListComponent.html'
 })
 export class AppListComponent implements OnInit {
     apps: App[];

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Narcissus.Security
+namespace Narcissus.CommandBus
 {
     public class Class1
     {

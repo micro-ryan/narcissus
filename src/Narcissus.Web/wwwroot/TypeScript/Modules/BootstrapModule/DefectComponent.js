@@ -20,7 +20,7 @@ var DefectComponent = (function () {
 DefectComponent = __decorate([
     core_1.Component({
         selector: 'defect-center',
-        templateUrl: '/wwwroot/html/DefectComponent.html'
+        templateUrl: '/html/DefectComponent.html'
     }),
     __metadata("design:paramtypes", [])
 ], DefectComponent);

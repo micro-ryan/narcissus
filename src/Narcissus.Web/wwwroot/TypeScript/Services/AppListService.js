@@ -14,7 +14,7 @@ var http_1 = require("@angular/http");
 var AppListService = (function () {
     function AppListService(http) {
         this.http = http;
-        this.apiPath = 'http://localhost:59860/api/v1/catalog/';
+        this.apiPath = '/catalog/';
     }
     AppListService.prototype.GetAppList = function () {
         return this.http.get(this.apiPath).toPromise().then(this.mapResponse).catch(this.handleError);

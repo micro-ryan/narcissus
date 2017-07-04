@@ -19,7 +19,7 @@ var PerformanceComponent = (function () {
 }());
 PerformanceComponent = __decorate([
     core_1.Component({
-        templateUrl: '/wwwroot/html/PerformanceComponent.html'
+        templateUrl: '/html/PerformanceComponent.html'
     }),
     __metadata("design:paramtypes", [])
 ], PerformanceComponent);

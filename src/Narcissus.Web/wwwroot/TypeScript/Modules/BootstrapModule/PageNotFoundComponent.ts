@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'defect-center',
-    templateUrl: '/wwwroot/html/PageNotFoundComponent.html'
+    templateUrl: '/html/PageNotFoundComponent.html'
 })
 export class PageNotFoundComponent implements OnInit {
 

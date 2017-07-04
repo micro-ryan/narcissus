@@ -18,7 +18,7 @@ var StartupComponents = (function () {
 StartupComponents = __decorate([
     core_1.Component({
         selector: 'dashboard',
-        templateUrl: '/wwwroot/html/StartupComponent.html'
+        templateUrl: '/html/StartupComponent.html'
     })
 ], StartupComponents);
 exports.StartupComponents = StartupComponents;

@@ -2,7 +2,7 @@
 
 
 @Component({
-    templateUrl: '/wwwroot/html/PerformanceComponent.html'
+    templateUrl: '/html/PerformanceComponent.html'
 })
 export class PerformanceComponent implements OnInit {
 

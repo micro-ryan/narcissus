@@ -25,7 +25,7 @@ var AppListComponent = (function () {
 AppListComponent = __decorate([
     core_1.Component({
         selector: 'app-list',
-        templateUrl: '/wwwroot/html/AppListComponent.html'
+        templateUrl: '/html/AppListComponent.html'
     }),
     __metadata("design:paramtypes", [AppListService_1.AppListService])
 ], AppListComponent);

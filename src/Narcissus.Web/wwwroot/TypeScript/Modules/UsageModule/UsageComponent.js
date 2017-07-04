@@ -19,7 +19,7 @@ var UsageComponent = (function () {
 }());
 UsageComponent = __decorate([
     core_1.Component({
-        templateUrl: '/wwwroot/html/UsageComponent.html'
+        templateUrl: '/html/UsageComponent.html'
     }),
     __metadata("design:paramtypes", [])
 ], UsageComponent);

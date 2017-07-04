@@ -4,7 +4,7 @@ import { App } from '../Models/AppList'
 
 @Injectable()
 export class AppListService {
-    private apiPath: string = 'http://localhost:59860/api/v1/catalog/'
+    private apiPath: string = '/catalog/'
    
     constructor(private http: Http) {
 

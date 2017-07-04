@@ -20,7 +20,7 @@ var PageNotFoundComponent = (function () {
 PageNotFoundComponent = __decorate([
     core_1.Component({
         selector: 'defect-center',
-        templateUrl: '/wwwroot/html/PageNotFoundComponent.html'
+        templateUrl: '/html/PageNotFoundComponent.html'
     }),
     __metadata("design:paramtypes", [])
 ], PageNotFoundComponent);

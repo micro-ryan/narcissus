@@ -33,10 +33,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\html\Account\" />
     <Folder Include="wwwroot\html\Home\" />
     <Folder Include="wwwroot\html\Manage\" />
     <Folder Include="wwwroot\html\shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\html\Account\ProfileComponent.html" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Models\User.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Modules\Account\AccountModule.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Modules\Account\LogonComponent.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Modules\Account\ProfileComponent.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Services\AccountService.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Services\LoggerService.ts" />
+    <TypeScriptCompile Include="wwwroot/TypeScript\Services\ServiceBase.ts" />
   </ItemGroup>
 
 </Project>
